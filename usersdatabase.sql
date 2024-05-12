@@ -11,7 +11,7 @@ CREATE TABLE savings (
     user_id INTEGER,
     amount REAL DEFAULT 0,
     FOREIGN KEY (user_id) REFERENCES users(id)
-);*/
+);
 
 INSERT INTO users (name, surname, card_number, password) VALUES
 ('Anna', 'Arnauld', '123456', 'anna123'),
@@ -20,6 +20,7 @@ INSERT INTO users (name, surname, card_number, password) VALUES
 ('Daniel', 'Johnson', '456789', 'incorrectpwd'),
 ('Emma', 'Brown', '567890', 'pwd123'),
 ('Francesca', 'Davis', '678901', 'FDcard'),
-('George', 'Miller', '789012', 'passwordG');
+('George', 'Miller', '789012', 'passwordG');*/
+
 
 SELECT * FROM users
