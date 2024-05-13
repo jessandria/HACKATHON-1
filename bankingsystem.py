@@ -82,7 +82,8 @@ class BankingSystem:
                             VALUES (%s, %s, %s, %s)''', (name, surname, card_number, password))
         self.connection.commit()
         print(f"Account created successfully! \nYour card number is : {card_number}")
-
+    
+    #login
     def login(self):
         card_number = input("Enter your card number: ")
         password = input("Enter your password: ")
