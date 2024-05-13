@@ -20,7 +20,14 @@ INSERT INTO users (name, surname, card_number, password) VALUES
 ('Daniel', 'Johnson', '456789', 'incorrectpwd'),
 ('Emma', 'Brown', '567890', 'pwd123'),
 ('Francesca', 'Davis', '678901', 'FDcard'),
-('George', 'Miller', '789012', 'passwordG');*/
+('George', 'Miller', '789012', 'passwordG');
 
-
-SELECT * FROM users
+INSERT INTO savings (user_id, amount) VALUES
+(1, 1000),  
+(2, 1500),  
+(3, 2000),  
+(4, 2500),  
+(5, 3000),  
+(6, 3500),  
+(7, 4000);
+*/
