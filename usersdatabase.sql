@@ -1,4 +1,4 @@
-/*CREATE TABLE users (
+CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     name TEXT,
     surname TEXT,
@@ -30,4 +30,3 @@ INSERT INTO savings (user_id, amount) VALUES
 (5, 3000),  
 (6, 3500),  
 (7, 4000);
-*/
