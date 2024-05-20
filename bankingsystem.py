@@ -152,9 +152,4 @@ class BankingSystem:
 #   if the actual script is being run, the function main() is called    
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
+    
